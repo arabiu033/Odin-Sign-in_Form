@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  
+  <!-- Link font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Link stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <main>
+            <!--Background image section-->
+            <section id="background-image">
+                    <!--Background image will go here-->
+                <h1>slEeEK</h1>
+            </section>
+
+            <!--Form plus body section-->
+            <section id="form-body">
+                <!--Header Section-->
+                <header id="header-section">
+                    <p id="header-text">
+                        This is not a real online service! You know you need something like this
+                        in your life to help you realize your deepest dreams.
+                        <br>Sign up <span>now</span> to get started.
+                    </p>
+                    <p id="header-text">
+                        You <span>know </span>you want to.
+                    </p>
+                </header>
+
+                <!--Form Section-->
+                <div id="form-section">
+                    <h3 id="lets-do-this">
+                        Let's do this!
+                    </h3>
+                    <form>
+                        <!--First Name-->
+                        <div class="input">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" placeholder="" name="first-name" autocapitalize="on">
+                        </div>
+
+                        <!--Last Name-->
+                        <div class="input">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" placeholder="" name="last-name" autocapitalize="on">
+                        </div>
+
+                        <!--Email-->
+                        <div class="input">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" placeholder="" name="email" autocapitalize="on">
+                        </div>  
+
+                        <!--Phone number-->
+                        <div class="input">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="number" name="phone-number" id="phone-number" placeholder="", autocomplete="off">
+                        </div>
+
+                        <!--Password-->
+                        <div class="input">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" placeholder="" autocomplete="off">
+                        </div>
+
+                        <!--Confirm Password-->
+                        <div class="input">
+                        <label for="c-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="c-password" id="c-password" placeholder="" autocomplete="off">
+                         </div>
+                    </form>
+                </div>
+
+                <footer id="footer-section">
+                    <input type="submit" value="Create Account">
+                    <p>
+                        Already have an account? <span>Log in</span>
+                    </p>
+                </footer>
+            </section>
+        </main>
+</body>
+</html>
